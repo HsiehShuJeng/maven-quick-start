@@ -13,6 +13,12 @@
             <artifactId>commons-lang3</artifactId>
             <version>3.4</version>
         </dependency>
+        <!--The below dependency is for Unit-test part-->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
     </dependencies>
     <!--Below is addition, for Maven-plugin part, 
         in other words, it's not compulsory of a maven project-->
