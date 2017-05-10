@@ -5,6 +5,15 @@
 	<groupId>dtt.scott.programming</groupId>
 	<artifactId>example</artifactId>
 	<version>1.0</version>
+
+    <!---Below is an addition, for Dependency part-->
+    <dependencies>
+        <dependency>
+            <groupId>com.hynnet</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.4</version>
+        </dependency>
+    </dependencies>
     <!--Below is addition, for Maven-plugin part, 
         in other words, it's not compulsory of a maven project-->
     <build>
